@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593811296941.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "433979734",
+    "id" : "738915ED",
+    "lastKnownWriteTime" : 1593812280,
+    "last_content_update" : 1593812280316,
+    "path" : "C:/Users/rm_19/Desktop/Fars/Fars/R/fars_functions.R",
+    "project_path" : "R/fars_functions.R",
+    "properties" : {
+        "cursorPosition" : "141,8",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
