@@ -1,0 +1,32 @@
+---
+title: "Fars Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The functions provided for you in this assignment will be using data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. You can download the data for this assignment here:
+
+```{r setup}
+library(Fars)
+
+setwd(system.file("extdata", package="Fars"))
+
+# fars_read(filename = filepath)
+
+fars_map_state(state.num = 1, year = 2013)
+
+fars_map_state(state.num = 45, year = 2013)
+
+```
+
+
